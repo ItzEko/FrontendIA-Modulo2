@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Box Model y Display</title>
+</head>
+<body>
+    <header>
+        <h1>Explorando el box model y diplay</h1>
+        <p>Esta página muestra cómo reacciona el modelo de cada con diferentes valores de display y box-sizing</p>
+    </header>
+    <main>
+        <!-- Secciones de mi página -->
+         <section>
+            <h2>Display: Block</h2>
+            <p>Los elementos con display: block ocupan el ancho completo disponible y empiezan en una nueva línea.</p>
+            <div class="box block">
+                Soy un elemento block.
+            </div>
+            <div class="box block">
+                Soy otro elemento block.
+            </div>
+         </section>
+
+         <section>
+            <h2>Display: Inline</h2>
+            <p>Los elementos con display:inline solo ocupan el ancho necesario y no aceptan propiedades de tamaño como width y height.</p>
+            <span class="box inline">
+                Soy inline.
+            </span>
+            <span class="box inline">
+                Soy otro inline.
+            </span>
+         </section>
+
+         <section>
+            <h2>Display: Inline-Block</h2>
+            <p>Los elementos con display:inline-block combinan las características de inline(no ropen línea) con block (aceptan width y height).</p>
+            <span class="box inline-block">
+                Soy inline-block.
+            </span>
+            <span class="box inline-block">
+                Soy otro inline-block.
+            </span>
+         </section>
+        
+    </main>
+    <footer>
+        2024 Dolores Parra. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
