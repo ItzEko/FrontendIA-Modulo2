@@ -60,3 +60,17 @@ footer{
 #titulo-principal{
     text-decoration: underline;
 }
+#colaboradores-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 100%;           
+}
+
+#image-colaboradores {
+    margin: 10px 10px;
+    height: 300px;
+    width: 600px;
+    object-fit: cover;
+    border-radius: 20px;    
+}
